@@ -1,8 +1,8 @@
-# 🥦 BroccoByte - Decentralized GPU Marketplace
+#Decentralized GPU Marketplace
 
 A DePIN (Decentralized Physical Infrastructure Network) platform built on Ethereum that enables GPU sharing and rental. Providers can rent out their GPU compute power, and consumers can post computational jobs with automatic escrow payments.
 
-## 🌟 Features
+##Features
 
 - **GPU Provider Dashboard**: Register GPUs, manage availability, claim and complete jobs
 - **Consumer Dashboard**: Browse available GPUs, post jobs, track completion
@@ -12,7 +12,7 @@ A DePIN (Decentralized Physical Infrastructure Network) platform built on Ethere
 - **IPFS Integration**: Decentralized storage for job results
 - **Dynamic Pricing**: Show correct currency (ETH/SHM) based on network
 
-## 🚀 Live Demo
+## Live Demo
 
 **Frontend**: Deployed on Vercel
 **Contracts**:
@@ -23,7 +23,7 @@ A DePIN (Decentralized Physical Infrastructure Network) platform built on Ethere
   - GPURegistry: `0x0dBF59AeCD34c52516DDF4143fc827341E066074`
   - JobMarketplace: `0x2691368CcfF8AE2048DC17171fC98853f9De1Ff5`
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Smart Contracts**: Solidity + Foundry
 - **Frontend**: React + TypeScript + Vite + TailwindCSS
@@ -31,7 +31,7 @@ A DePIN (Decentralized Physical Infrastructure Network) platform built on Ethere
 - **Web3**: ethers.js v5
 - **Storage**: IPFS via Pinata
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ethereum-gpu-depin/
@@ -48,7 +48,7 @@ ethereum-gpu-depin/
 └── provider-worker/   # GPU worker for job execution
 ```
 
-## 🏃 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -75,7 +75,7 @@ forge test
 forge script script/Deploy.s.sol --rpc-url $RPC_URL --broadcast
 ```
 
-## 💡 How It Works
+## How It Works
 
 1. **Provider** registers GPU with model, VRAM, and hourly price
 2. **Consumer** browses available GPUs and posts a job with payment
@@ -83,12 +83,12 @@ forge script script/Deploy.s.sol --rpc-url $RPC_URL --broadcast
 4. **Provider** claims job and completes work
 5. **Payment** automatically released (95% to provider, 5% platform fee)
 
-## 🔗 Get Testnet Tokens
+## Get Testnet Tokens
 
 - **Sepolia**: https://sepoliafaucet.com/
 - **Shardeum**: https://faucet-sphinx.shardeum.org/
 
-## 🎨 UI Features
+## UI Features
 
 - Dark theme with green accents
 - Network switcher (Sepolia ↔ Shardeum)
@@ -96,7 +96,7 @@ forge script script/Deploy.s.sol --rpc-url $RPC_URL --broadcast
 - Dynamic currency display
 - Responsive design
 
-## 📜 Smart Contract Overview
+## Smart Contract Overview
 
 ### GPURegistry.sol
 - Register GPU resources
@@ -109,16 +109,13 @@ forge script script/Deploy.s.sol --rpc-url $RPC_URL --broadcast
 - Complete jobs with results
 - Automatic escrow and payment release
 
-## 🔐 Security
+## Security
 
 - No private keys in code
 - Environment variables for sensitive data
 - Smart contract access controls
 - Input validation on all functions
 
-## 📝 License
-
-MIT License
 
 ## 🤝 Contributing
 
